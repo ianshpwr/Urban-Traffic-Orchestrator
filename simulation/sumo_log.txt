@@ -1,7 +1,8 @@
-Loading net-file from 'joined_buslanes.net.xml' ... done (44ms).
-Loading additional-files from 'joined_bus_stops.add.xml' ... done (3ms).
-Loading additional-files from 'joined_detectors.add.xml' ... done (4ms).
-Loading additional-files from 'joined_vtypes.add.xml' ...
+***Starting server on port 65413 ***
+Loading net-file from 'simulation/joined_buslanes.net.xml' ... done (30ms).
+Loading additional-files from 'simulation/joined_bus_stops.add.xml' ... done (2ms).
+Loading additional-files from 'simulation/joined_detectors.add.xml' ... done (2ms).
+Loading additional-files from 'simulation/joined_vtypes.add.xml' ...
 Warning: Emission classes should always use the model as a prefix, please recheck 'P_7_7'. In later SUMO versions this might become an error.
 Warning: Emission classes should always use the model as a prefix, please recheck 'P_7_7'. In later SUMO versions this might become an error.
 Warning: Emission classes should always use the model as a prefix, please recheck 'P_7_7'. In later SUMO versions this might become an error.
@@ -15,17 +16,21 @@ Warning: Emission classes should always use the model as a prefix, please rechec
 Warning: Emission classes should always use the model as a prefix, please recheck 'P_7_7'. In later SUMO versions this might become an error.
 Warning: Emission classes should always use the model as a prefix, please recheck 'P_7_7'. In later SUMO versions this might become an error.
 Warning: Emission classes should always use the model as a prefix, please recheck 'HDV_6_2'. In later SUMO versions this might become an error.
- done (5ms).
-Loading additional-files from 'joined_tls.add.xml' ... done (3ms).
-Loading route-files incrementally from 'joined.rou.xml'
-Loading route-files incrementally from 'joined_busses.rou.xml'
+ done (3ms).
+Loading additional-files from 'simulation/joined_tls.add.xml' ... done (1ms).
+Loading route-files incrementally from 'simulation/joined.rou.xml'
+Loading route-files incrementally from 'simulation/joined_busses.rou.xml'
 Loading done.
-Simulation ended at time: 0.00.
+Simulation started with time: 0.00.
+Error: tcpip::Socket::recvAndCheck @ recv: peer shutdown
+Quitting (on error).
+Simulation ended at time: 2478.00.
 Performance:
- Duration: 2.23s
- Real time factor: 0
- UPS: 0.000000
+ Duration: 588.14s
+ TraCI-Duration: 568.46s
+ Real time factor: 4.21331
+ UPS: 3633.227689
 Vehicles:
- Inserted: 0 (Loaded: 21)
- Running: 0
+ Inserted: 7702 (Loaded: 8121)
+ Running: 1197
  Waiting: 0
