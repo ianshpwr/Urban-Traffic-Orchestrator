@@ -1,8 +1,12 @@
+import os
 import traci
 
 from collectors.telemetry_collector import collect_vehicle_data
 from event_engine.event_detector import detect_events
 from agents.traffic_reasoning_agent import analyze_events
+
+# ensure logs folder exists
+os.makedirs("logs", exist_ok=True)
 
 sumoCmd = ["sumo-gui", "-c", "simulation/run.sumo.cfg", "--start"]
 
@@ -19,5 +23,9 @@ while traci.simulation.getMinExpectedNumber() > 0:
     report = analyze_events(events)
 
     print(report)
+
+    # write to log file
+    with open("logs/traffic_events.log", "a") as f:
+        f.write(report + "\n")
 
 traci.close()
