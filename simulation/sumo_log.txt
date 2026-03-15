@@ -1,0 +1,31 @@
+Loading net-file from 'joined_buslanes.net.xml' ... done (44ms).
+Loading additional-files from 'joined_bus_stops.add.xml' ... done (3ms).
+Loading additional-files from 'joined_detectors.add.xml' ... done (4ms).
+Loading additional-files from 'joined_vtypes.add.xml' ...
+Warning: Emission classes should always use the model as a prefix, please recheck 'P_7_7'. In later SUMO versions this might become an error.
+Warning: Emission classes should always use the model as a prefix, please recheck 'P_7_7'. In later SUMO versions this might become an error.
+Warning: Emission classes should always use the model as a prefix, please recheck 'P_7_7'. In later SUMO versions this might become an error.
+Warning: Emission classes should always use the model as a prefix, please recheck 'P_7_7'. In later SUMO versions this might become an error.
+Warning: Emission classes should always use the model as a prefix, please recheck 'P_7_7'. In later SUMO versions this might become an error.
+Warning: Emission classes should always use the model as a prefix, please recheck 'P_7_7'. In later SUMO versions this might become an error.
+Warning: Emission classes should always use the model as a prefix, please recheck 'P_7_7'. In later SUMO versions this might become an error.
+Warning: Emission classes should always use the model as a prefix, please recheck 'P_7_7'. In later SUMO versions this might become an error.
+Warning: Emission classes should always use the model as a prefix, please recheck 'P_7_7'. In later SUMO versions this might become an error.
+Warning: Emission classes should always use the model as a prefix, please recheck 'P_7_7'. In later SUMO versions this might become an error.
+Warning: Emission classes should always use the model as a prefix, please recheck 'P_7_7'. In later SUMO versions this might become an error.
+Warning: Emission classes should always use the model as a prefix, please recheck 'P_7_7'. In later SUMO versions this might become an error.
+Warning: Emission classes should always use the model as a prefix, please recheck 'HDV_6_2'. In later SUMO versions this might become an error.
+ done (5ms).
+Loading additional-files from 'joined_tls.add.xml' ... done (3ms).
+Loading route-files incrementally from 'joined.rou.xml'
+Loading route-files incrementally from 'joined_busses.rou.xml'
+Loading done.
+Simulation ended at time: 0.00.
+Performance:
+ Duration: 2.23s
+ Real time factor: 0
+ UPS: 0.000000
+Vehicles:
+ Inserted: 0 (Loaded: 21)
+ Running: 0
+ Waiting: 0
